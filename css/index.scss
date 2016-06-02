@@ -1,3 +1,5 @@
+$img : '../image/';
+
 html{
   font-size: 100px;
 }
@@ -6,8 +8,8 @@ html{
 }
 .nav{
   background: #ffc001;
-  height: 0.37rem;
-  line-height: 0.37rem;
+  height: 0.39rem;
+  line-height: 0.39rem;
   font-size: 0.1rem;
   width: 100%;
   z-index: 100;
@@ -67,5 +69,14 @@ html{
   margin: 0.05rem 0.07rem 0.03rem;
 }
 #banner{
-  height: 100px;
+  height: 1.365rem;
+}
+@for $i from 1 through 8{
+  .swiper-wrapper div:nth-child(#{$i}){
+    display: block;
+    width: 3.19rem;
+    height: 1.36rem;
+    background-image: url($img + $i + '.jpg');
+    background-size: 3.19rem 1.36rem;
+  }
 }

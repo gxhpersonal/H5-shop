@@ -13,8 +13,8 @@ html{
 }
 .nav{
   background: #ffc001;
-  height: 0.39rem;
-  line-height: 0.39rem;
+  height: 0.37rem;
+  line-height: 0.35rem;
   font-size: 0.1rem;
   width: 100%;
   z-index: 100;
@@ -96,4 +96,15 @@ html{
   width: 0.05rem;
   height: 0.05rem;
   margin:0 0.04rem 0 0;
+}
+.redbag{
+  position: relative;
+  overflow: hidden;
+}
+.redbag a{
+  display: block;
+  width: 3.1993rem;
+  height: 0.853rem;
+  background-image: url(../image/9.jpg);
+  background-size: 3.1993rem 0.853rem;
 }

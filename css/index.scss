@@ -3,6 +3,11 @@ $img : '../image/';
 html{
   font-size: 100px;
 }
+@media screen and (min-width:414px){
+  html{
+    font-size: 130px;
+  }
+}
 .daohang{
   position: relative;
 }
@@ -32,7 +37,7 @@ html{
     content: "";
     position: absolute;
     left: 0.08rem;
-    top: 0.12rem;
+    top: 0.13rem;
     width: 0.12rem;
     height: 0.12rem;
     background-size: 0.12rem 0.12rem;
@@ -73,10 +78,22 @@ html{
 }
 @for $i from 1 through 8{
   .swiper-wrapper div:nth-child(#{$i}){
-    display: block;
-    width: 3.19rem;
+    // display: block;
+    width: 3.191rem;
     height: 1.36rem;
     background-image: url($img + $i + '.jpg');
-    background-size: 3.19rem 1.36rem;
+    background-repeat: no-repeat;
+    background-size: 3.2rem 1.36rem;
   }
+}
+#round{
+  position: absolute;
+  padding-right: 0.06rem;
+  bottom: 0.04rem;
+  text-align: right;
+}
+#round span{
+  width: 0.05rem;
+  height: 0.05rem;
+  margin:0 0.04rem 0 0;
 }

@@ -2,6 +2,12 @@ html {
   font-size: 100px;
 }
 
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 130px;
+  }
+}
+
 .daohang {
   position: relative;
 }
@@ -36,7 +42,7 @@ html {
   content: "";
   position: absolute;
   left: 0.08rem;
-  top: 0.12rem;
+  top: 0.13rem;
   width: 0.12rem;
   height: 0.12rem;
   background-size: 0.12rem 0.12rem;
@@ -81,65 +87,78 @@ html {
 }
 
 .swiper-wrapper div:nth-child(1) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/1.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
 }
 
 .swiper-wrapper div:nth-child(2) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/2.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
 }
 
 .swiper-wrapper div:nth-child(3) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/3.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
 }
 
 .swiper-wrapper div:nth-child(4) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/4.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
 }
 
 .swiper-wrapper div:nth-child(5) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/5.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
 }
 
 .swiper-wrapper div:nth-child(6) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/6.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
 }
 
 .swiper-wrapper div:nth-child(7) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/7.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
 }
 
 .swiper-wrapper div:nth-child(8) {
-  display: block;
-  width: 3.19rem;
+  width: 3.191rem;
   height: 1.36rem;
   background-image: url("../image/8.jpg");
-  background-size: 3.19rem 1.36rem;
+  background-repeat: no-repeat;
+  background-size: 3.2rem 1.36rem;
+}
+
+#round {
+  position: absolute;
+  padding-right: 0.06rem;
+  bottom: 0.04rem;
+  text-align: right;
+}
+
+#round span {
+  width: 0.05rem;
+  height: 0.05rem;
+  margin: 0 0.04rem 0 0;
 }

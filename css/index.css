@@ -8,8 +8,8 @@ html {
 
 .nav {
   background: #ffc001;
-  height: 0.37rem;
-  line-height: 0.37rem;
+  height: 0.39rem;
+  line-height: 0.39rem;
   font-size: 0.1rem;
   width: 100%;
   z-index: 100;
@@ -77,5 +77,69 @@ html {
 }
 
 #banner {
-  height: 100px;
+  height: 1.365rem;
+}
+
+.swiper-wrapper div:nth-child(1) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/1.jpg");
+  background-size: 3.19rem 1.36rem;
+}
+
+.swiper-wrapper div:nth-child(2) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/2.jpg");
+  background-size: 3.19rem 1.36rem;
+}
+
+.swiper-wrapper div:nth-child(3) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/3.jpg");
+  background-size: 3.19rem 1.36rem;
+}
+
+.swiper-wrapper div:nth-child(4) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/4.jpg");
+  background-size: 3.19rem 1.36rem;
+}
+
+.swiper-wrapper div:nth-child(5) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/5.jpg");
+  background-size: 3.19rem 1.36rem;
+}
+
+.swiper-wrapper div:nth-child(6) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/6.jpg");
+  background-size: 3.19rem 1.36rem;
+}
+
+.swiper-wrapper div:nth-child(7) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/7.jpg");
+  background-size: 3.19rem 1.36rem;
+}
+
+.swiper-wrapper div:nth-child(8) {
+  display: block;
+  width: 3.19rem;
+  height: 1.36rem;
+  background-image: url("../image/8.jpg");
+  background-size: 3.19rem 1.36rem;
 }

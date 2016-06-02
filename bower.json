@@ -1,0 +1,24 @@
+{
+  "name": "jd",
+  "homepage": "index.html",
+  "authors": [
+    "gxhpersonal <991158744@qq.com>"
+  ],
+  "description": "jd from weixin",
+  "main": "index.html",
+  "keywords": [
+    "jd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

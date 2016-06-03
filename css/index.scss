@@ -81,7 +81,7 @@ body{
   height: 1.365rem;
 }
 @for $i from 1 through 8{
-  .swiper-wrapper div:nth-child(#{$i}){
+  .banner div:nth-child(#{$i}){
     width: 3.191rem;
     height: 1.36rem;
     background-image: url($img + $i + '.jpg');
